@@ -1,0 +1,149 @@
+QuicksortTypedTest.General<char> 1 0.0114151
+QuicksortTypedTest.AlreadySorted<char> 1 0.008193
+QuicksortTypedTest.ReverseSorted<char> 1 0.0080764
+QuicksortTypedTest.WithDuplicates<char> 1 0.0106126
+QuicksortTypedTest.AllSame<char> 1 0.0153422
+QuicksortTypedTest.Empty<char> 1 0.012815
+QuicksortTypedTest.SingleElement<char> 1 0.0090704
+QuicksortTypedTest.SortDescending<char> 1 0.0084968
+QuicksortTypedTest.General<unsigned char> 1 0.0088317
+QuicksortTypedTest.AlreadySorted<unsigned char> 1 0.0094232
+QuicksortTypedTest.ReverseSorted<unsigned char> 1 0.0097444
+QuicksortTypedTest.WithDuplicates<unsigned char> 1 0.0090205
+QuicksortTypedTest.AllSame<unsigned char> 1 0.0086964
+QuicksortTypedTest.Empty<unsigned char> 1 0.0098458
+QuicksortTypedTest.SingleElement<unsigned char> 1 0.0087214
+QuicksortTypedTest.SortDescending<unsigned char> 1 0.0093976
+QuicksortTypedTest.General<short> 1 0.0102775
+QuicksortTypedTest.AlreadySorted<short> 1 0.0088477
+QuicksortTypedTest.ReverseSorted<short> 1 0.0081685
+QuicksortTypedTest.WithDuplicates<short> 1 0.0088248
+QuicksortTypedTest.AllSame<short> 1 0.0081714
+QuicksortTypedTest.Empty<short> 1 0.0080179
+QuicksortTypedTest.SingleElement<short> 1 0.0077757
+QuicksortTypedTest.SortDescending<short> 1 0.0096958
+QuicksortTypedTest.General<unsigned short> 1 0.0086376
+QuicksortTypedTest.AlreadySorted<unsigned short> 1 0.0089537
+QuicksortTypedTest.ReverseSorted<unsigned short> 1 0.0095841
+QuicksortTypedTest.WithDuplicates<unsigned short> 1 0.0096995
+QuicksortTypedTest.AllSame<unsigned short> 1 0.0096432
+QuicksortTypedTest.Empty<unsigned short> 1 0.0072347
+QuicksortTypedTest.SingleElement<unsigned short> 1 0.0073612
+QuicksortTypedTest.SortDescending<unsigned short> 1 0.0139802
+QuicksortTypedTest.General<int> 1 0.012779
+QuicksortTypedTest.AlreadySorted<int> 1 0.014088
+QuicksortTypedTest.ReverseSorted<int> 1 0.008963
+QuicksortTypedTest.WithDuplicates<int> 1 0.0077585
+QuicksortTypedTest.AllSame<int> 1 0.0076797
+QuicksortTypedTest.Empty<int> 1 0.0090932
+QuicksortTypedTest.SingleElement<int> 1 0.0079857
+QuicksortTypedTest.SortDescending<int> 1 0.0081219
+QuicksortTypedTest.General<unsigned int> 1 0.0092957
+QuicksortTypedTest.AlreadySorted<unsigned int> 1 0.0077201
+QuicksortTypedTest.ReverseSorted<unsigned int> 1 0.0079915
+QuicksortTypedTest.WithDuplicates<unsigned int> 1 0.0076575
+QuicksortTypedTest.AllSame<unsigned int> 1 0.0103213
+QuicksortTypedTest.Empty<unsigned int> 1 0.0112539
+QuicksortTypedTest.SingleElement<unsigned int> 1 0.0085179
+QuicksortTypedTest.SortDescending<unsigned int> 1 0.0119585
+QuicksortTypedTest.General<long> 1 0.0085282
+QuicksortTypedTest.AlreadySorted<long> 1 0.0084856
+QuicksortTypedTest.ReverseSorted<long> 1 0.0112854
+QuicksortTypedTest.WithDuplicates<long> 1 0.010602
+QuicksortTypedTest.AllSame<long> 1 0.0081107
+QuicksortTypedTest.Empty<long> 1 0.009943
+QuicksortTypedTest.SingleElement<long> 1 0.0109433
+QuicksortTypedTest.SortDescending<long> 1 0.011565
+QuicksortTypedTest.General<float> 1 0.0083845
+QuicksortTypedTest.AlreadySorted<float> 1 0.0100847
+QuicksortTypedTest.ReverseSorted<float> 1 0.011786
+QuicksortTypedTest.WithDuplicates<float> 1 0.0101667
+QuicksortTypedTest.AllSame<float> 1 0.0090003
+QuicksortTypedTest.Empty<float> 1 0.0100588
+QuicksortTypedTest.SingleElement<float> 1 0.0107241
+QuicksortTypedTest.SortDescending<float> 1 0.0099841
+QuicksortTypedTest.General<double> 1 0.0087132
+QuicksortTypedTest.AlreadySorted<double> 1 0.0085676
+QuicksortTypedTest.ReverseSorted<double> 1 0.0133649
+QuicksortTypedTest.WithDuplicates<double> 1 0.0079773
+QuicksortTypedTest.AllSame<double> 1 0.0102141
+QuicksortTypedTest.Empty<double> 1 0.0100944
+QuicksortTypedTest.SingleElement<double> 1 0.0103156
+QuicksortTypedTest.SortDescending<double> 1 0.0110582
+QuicksortRandomTest.RandomAccessWithRandomData 1 0.0182567
+QuicksortCustomTypeTest.SortPeopleByAge 1 0.0102232
+QuicksortTypedTest.General<char> 1 0.0107917
+QuicksortTypedTest.AlreadySorted<char> 1 0.0107801
+QuicksortTypedTest.ReverseSorted<char> 1 0.009711
+QuicksortTypedTest.WithDuplicates<char> 1 0.0083398
+QuicksortTypedTest.AllSame<char> 1 0.0082051
+QuicksortTypedTest.Empty<char> 1 0.0078369
+QuicksortTypedTest.SingleElement<char> 1 0.0088241
+QuicksortTypedTest.SortDescending<char> 1 0.0089683
+QuicksortTypedTest.General<unsigned char> 1 0.0099613
+QuicksortTypedTest.AlreadySorted<unsigned char> 1 0.0074884
+QuicksortTypedTest.ReverseSorted<unsigned char> 1 0.0090162
+QuicksortTypedTest.WithDuplicates<unsigned char> 1 0.008136
+QuicksortTypedTest.AllSame<unsigned char> 1 0.0075313
+QuicksortTypedTest.Empty<unsigned char> 1 0.0075065
+QuicksortTypedTest.SingleElement<unsigned char> 1 0.0082126
+QuicksortTypedTest.SortDescending<unsigned char> 1 0.0075971
+QuicksortTypedTest.General<short> 1 0.0087534
+QuicksortTypedTest.AlreadySorted<short> 1 0.0080325
+QuicksortTypedTest.ReverseSorted<short> 1 0.0084328
+QuicksortTypedTest.WithDuplicates<short> 1 0.0070454
+QuicksortTypedTest.AllSame<short> 1 0.0082484
+QuicksortTypedTest.Empty<short> 1 0.0070424
+QuicksortTypedTest.SingleElement<short> 1 0.0085399
+QuicksortTypedTest.SortDescending<short> 1 0.0075282
+QuicksortTypedTest.General<unsigned short> 1 0.0085201
+QuicksortTypedTest.AlreadySorted<unsigned short> 1 0.0080884
+QuicksortTypedTest.ReverseSorted<unsigned short> 1 0.0079719
+QuicksortTypedTest.WithDuplicates<unsigned short> 1 0.0084327
+QuicksortTypedTest.AllSame<unsigned short> 1 0.0087399
+QuicksortTypedTest.Empty<unsigned short> 1 0.0080152
+QuicksortTypedTest.SingleElement<unsigned short> 1 0.0073668
+QuicksortTypedTest.SortDescending<unsigned short> 1 0.0079915
+QuicksortTypedTest.General<int> 1 0.0108695
+QuicksortTypedTest.AlreadySorted<int> 1 0.0092681
+QuicksortTypedTest.ReverseSorted<int> 1 0.0077633
+QuicksortTypedTest.WithDuplicates<int> 1 0.0079396
+QuicksortTypedTest.AllSame<int> 1 0.007229
+QuicksortTypedTest.Empty<int> 1 0.0085554
+QuicksortTypedTest.SingleElement<int> 1 0.0074368
+QuicksortTypedTest.SortDescending<int> 1 0.0099173
+QuicksortTypedTest.General<unsigned int> 1 0.0074703
+QuicksortTypedTest.AlreadySorted<unsigned int> 1 0.0075187
+QuicksortTypedTest.ReverseSorted<unsigned int> 1 0.007811
+QuicksortTypedTest.WithDuplicates<unsigned int> 1 0.0080264
+QuicksortTypedTest.AllSame<unsigned int> 1 0.0074345
+QuicksortTypedTest.Empty<unsigned int> 1 0.0077995
+QuicksortTypedTest.SingleElement<unsigned int> 1 0.0078334
+QuicksortTypedTest.SortDescending<unsigned int> 1 0.0085971
+QuicksortTypedTest.General<long> 1 0.0078903
+QuicksortTypedTest.AlreadySorted<long> 1 0.007414
+QuicksortTypedTest.ReverseSorted<long> 1 0.0072653
+QuicksortTypedTest.WithDuplicates<long> 1 0.0077249
+QuicksortTypedTest.AllSame<long> 1 0.0093272
+QuicksortTypedTest.Empty<long> 1 0.0087394
+QuicksortTypedTest.SingleElement<long> 1 0.0097392
+QuicksortTypedTest.SortDescending<long> 1 0.0080525
+QuicksortTypedTest.General<float> 1 0.0106623
+QuicksortTypedTest.AlreadySorted<float> 1 0.0098358
+QuicksortTypedTest.ReverseSorted<float> 1 0.0089385
+QuicksortTypedTest.WithDuplicates<float> 1 0.0099789
+QuicksortTypedTest.AllSame<float> 1 0.0079977
+QuicksortTypedTest.Empty<float> 1 0.0072807
+QuicksortTypedTest.SingleElement<float> 1 0.0076399
+QuicksortTypedTest.SortDescending<float> 1 0.0107764
+QuicksortTypedTest.General<double> 1 0.0089734
+QuicksortTypedTest.AlreadySorted<double> 1 0.0077862
+QuicksortTypedTest.ReverseSorted<double> 1 0.0076573
+QuicksortTypedTest.WithDuplicates<double> 1 0.0077195
+QuicksortTypedTest.AllSame<double> 1 0.0095262
+QuicksortTypedTest.Empty<double> 1 0.0082983
+QuicksortTypedTest.SingleElement<double> 1 0.0070171
+QuicksortTypedTest.SortDescending<double> 1 0.0075479
+QuicksortRandomTest.RandomAccessWithRandomData 1 0.0086243
+QuicksortCustomTypeTest.SortPeopleByAge 1 0.0075778
+---

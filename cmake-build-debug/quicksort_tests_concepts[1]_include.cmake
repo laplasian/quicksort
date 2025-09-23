@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/user/CLionProjects/quicksort/cmake-build-debug/quicksort_tests_concepts[1]_tests.cmake")
+  include("C:/Users/user/CLionProjects/quicksort/cmake-build-debug/quicksort_tests_concepts[1]_tests.cmake")
+else()
+  add_test(quicksort_tests_concepts_NOT_BUILT quicksort_tests_concepts_NOT_BUILT)
+endif()
