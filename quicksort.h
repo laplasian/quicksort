@@ -8,36 +8,37 @@
 namespace quicksort {
     template <class It>
     concept random_access_iterator = std::is_base_of_v<std::random_access_iterator_tag, typename std::iterator_traits<It>::iterator_category>
-        && requires(It i, It j, int n, int k)
+        && requires(It i, It j, int n)
     {
-        i + n; i - n; n + 1; i[n];
-        k += n; k -= n;
-        i < j; i > j; i <= j; i >= j;
-        ++i; --i; *i;
+        i + n; i!=j;
+        ++i; *i; i - j;
+        std::iter_swap(i,j);
     };
     namespace random_access_impl {
         template <class It, class Compare>
         void _sort(It first, It last, Compare comp) {
-            if (std::distance(first, last) <= 1) return;
-            auto pivot_value = *(first + std::distance(first, last) / 2);
-            It left = first;
-            It right = last - 1;
-            while (left <= right) {
-                while (comp(*left, pivot_value)) ++left;
-                while (comp(pivot_value, *right)) --right;
+            using std::iter_swap;
+            auto n = last - first;
+            if (n < 2) return;
 
-                if (left <= right) {
-                    std::iter_swap(left, right);
-                    ++left;
-                    --right;
+            It pivot_it = last - 1;
+            const auto& pivot = *pivot_it;
+
+            It i = first;
+            for (It j = first; j != pivot_it; ++j) {
+                if (comp(*j, pivot)) {
+                    iter_swap(i, j);
+                    ++i;
                 }
             }
-            if (first < right + 1) _sort(first, right + 1, comp);
-            if (left < last) _sort(left, last, comp);
+            iter_swap(i, pivot_it);
+
+            _sort(first, i, comp);
+            _sort(++i, last, comp);
         }
     }
 
-    template <random_access_iterator It, class Compare = std::less<typename std::iterator_traits<It>::value_type>>
+    template <random_access_iterator It, class Compare = std::less<>>
     void sort(It first, It last, Compare comp = {}) {
         random_access_impl::_sort(first, last, comp);
     }
